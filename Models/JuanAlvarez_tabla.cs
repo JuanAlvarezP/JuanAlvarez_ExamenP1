@@ -22,7 +22,7 @@ namespace JuanAlvarez_ExamenP1.Models
         public string? jaCorreo { get; set; }
 
         [DataType(DataType.Date)]
-        public int jaNacimiento { get; set; }
+        public string jaNacimiento { get; set; }
         
         
     }
